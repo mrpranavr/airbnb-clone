@@ -7,7 +7,7 @@ const Header = () => {
         <header className="sticky top-0 z-50 grid grid-cols-3 bg-white shadow-lg p-5 md:px-10">
             {/* Left */}
             <div className="relative flex items-center h-10 cursor-pointer my-auto">
-                <Image src='https://links.papareact.com/qd3' layout="fill" style={{objectFit: 'contain', objectPosition: 'left'}} />
+                <Image src='https://links.papareact.com/qd3' alt='logo' fill style={{objectFit: 'contain', objectPosition: 'left'}} />
             </div>
 
             {/* middle */}
@@ -18,8 +18,8 @@ const Header = () => {
 
             {/* right */}
             <div className="flex space-x-4 items-center justify-end text-gray-500">
-                <p className="hidden md:inline-block cursor-pointer" >Become a host</p>
-                <GlobeAltIcon className="h-6 cursor-pointer" />
+                <p className="hidden md:inline-block cursor-pointer pl-5" >Become a host</p>
+                <GlobeAltIcon className="h-6 cursor-pointer hidden sm:inline-block" />
                 <div className="flex items-center space-x-2 border-2 p-2 rounded-full">
                     <Bars3Icon className="h-6 cursor-pointer" />
                     <UserCircleIcon className="h-6 cursor-pointer "/>
