@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Header from "@/components/Header.js";
+import Header from "@/components/header";
 import Banner from "@/components/Banner";
 
 import { Nunito } from "@next/font/google";
