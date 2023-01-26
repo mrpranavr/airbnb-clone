@@ -1,5 +1,5 @@
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import Header from "@/components/header";
 import InfoCard from "@/components/InfoCard";
 import { format } from "date-fns";
 import { useRouter } from "next/router";
