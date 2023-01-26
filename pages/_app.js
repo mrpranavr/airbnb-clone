@@ -7,7 +7,7 @@ import { Nunito } from '@next/font/google'
 const nunito = Nunito({ subsets: ['latin'] })
 
 const progress = new ProgressBar({
-    size: 4,
+    size: 8,
     color: '#fe595e',
     className:'z-50',
     delay: 100,

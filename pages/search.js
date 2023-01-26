@@ -22,7 +22,7 @@ const Search = ({ searchResults }) => {
 
             <main className="flex">
                 {/* Left section */}
-                <section className="flex-grow pt-14 px-6">
+                <section className="flex-grow pt-14 px-6 max-w-[1280px] mx-auto">
                     <p className="text-xs">
                         300+ stays - {range} - {numberOfGuests} guests
                     </p>
