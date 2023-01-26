@@ -6,7 +6,7 @@ const MediumCard = ({ img, title }) => {
         <div className="cursor-pointer hover:scale-105 transition transform duration-300 ease-out">
             {/* image */}
             <div className="relative h-80 w-80">
-                <Image src={img} fill style={{objectFit:'contain'}} className='rounded-xl' />
+                <Image src={img} alt='image' fill style={{objectFit:'contain'}} className='rounded-xl' />
             </div>
 
             {/* text */}
